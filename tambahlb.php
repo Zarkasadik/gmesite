@@ -1,0 +1,135 @@
+<?php
+    if(isset($_POST['tambah'])) {
+        eco "Update Line Balancing berhasil"
+    }
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Admin Dashboard | Korsat X Parmaga</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<head>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+        <ul>
+         <div class="header">
+            
+             <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+               <a class="topbar m-0" href="file:///C:/xampp/htdocs/Responsive%20Admin%20Dashboard%20[Korsat_X_Parmaga]/Responsive%20Admin%20Dashboard%20-%20final/index.html" target="_blank">
+                                              
+                    </a>
+                  </div>
+                  <li>
+                    <a href="ieLB.html">
+                        <span class="icon">
+                            <img src="assets/imgs/Logo-Parkland.png" class="topbar h-20">
+                        </span>
+                        <span class="title">Line Balancing_PWJ</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ieLB.html">
+                        <span class="icon">
+                            <ion-icon name="flag-outline"></ion-icon>
+                        </span>
+                        <span class="title">PWJ</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ieLB-pwi5.html">
+                        <span class="icon">
+                            <ion-icon name="flag-outline"></ion-icon>
+                        </span>
+                        <span class="title">PWI-5</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="ieLB-pwi-2.html">
+                        <span class="icon">
+                            <ion-icon name="flag-outline"></ion-icon>
+                        </span>
+                        <span class="title">PWI-2</span>
+                    </a>
+                </li>
+                <li> 
+                    <a href="HomeIEdev.html">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Back</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Home.html">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Home</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/zr.jpeg" alt="">
+                </div>
+            </div>
+
+            <!-- ======================= Cards ================== -->
+            <h3>Tambah Data Line Balancing</h3>
+            <form action="tambahlb" method="post" enctype=""multipart/form-data">
+            <table>
+                <tr>
+                    <td>Model</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Article</td>
+                    <td><input type="text&number"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="checkbox">Man
+                        <input type="checkbox">Women
+                        <input type="checkbox">Kids
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload File</td>
+                    <td><form action="" method=""post" enctype="multipart/form-data">
+                        <input type="file" name=""namaFile">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="Submit" value="Simpan">
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+            </form>
+
+              
